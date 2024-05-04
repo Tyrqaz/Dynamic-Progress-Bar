@@ -10,4 +10,15 @@ animation: move 3s linear;
 width: max-content;
 height: max-content;
 
+<svg>
+  <circle stroke="red"/>
+</svg>
+
+https://www.w3schools.com/graphics/svg_circle.asp
+
+<text text-anchor="middle" alignment-baseline="middle"></text>
+
+stroke-dasharray: 0;
+stroke-dashoffset: 0;
+
 https://youtu.be/UCG8JObh0qU?list=PLL5taXRLzd89hR7zTiog7kjYCrHN_n7IE&t=877

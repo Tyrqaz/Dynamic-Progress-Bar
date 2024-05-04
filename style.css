@@ -3,7 +3,7 @@
   font-family: "Montserrat", "sans-serif";
 }
 
-.progress-bar{
+/* .progress-bar{
   width: 350px;
   height: 10px;
   background-color: gray;
@@ -33,11 +33,25 @@
   height: 100%;
   background-color: limegreen;
   border-radius: 30px;
-  /* animation: move 3s linear; */
+  animation: move 3s linear;
 }
 
-/* @keyframes move {
+@keyframes move {
   to{
     width: 100%;
   }
 } */
+
+.progress{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.progress-circle{
+  stroke-dasharray: 189;
+  stroke-dashoffset: 189;
+}
