@@ -1,0 +1,13 @@
+\css
+animation: move 3s linear;
+
+@keyframes move {
+  to{
+    width: 100%;
+  }
+}
+
+width: max-content;
+height: max-content;
+
+https://youtu.be/UCG8JObh0qU?list=PLL5taXRLzd89hR7zTiog7kjYCrHN_n7IE&t=877
